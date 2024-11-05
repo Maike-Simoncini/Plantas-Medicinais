@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantas Medicinais</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header>
+        <h1>Plantas Medicinais</h1>
+    </header>
+    <main>
+        <section class="pesquisa">
+            <input type="text" placeholder="Digite o nome de uma planta" autocomplete="off" id="campo-pesquisa">
+            <button onclick="pesquisar()" id="botao-pesquisa"><span
+                    class="material-symbols-outlined">search</span></button>
+        </section>
+        <section class="resultado" id="resultado">
+        </section>
+    </main>
+    <footer>
+        <p><a href="https://github.com/Maike-Simoncini">© 2024 | Dev. Maike | Todos os direitos reservados</a></p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
