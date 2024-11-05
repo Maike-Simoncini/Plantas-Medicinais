@@ -18,7 +18,7 @@ Este projeto web simples permite aos usuários pesquisar por Plantas Medicinais.
 * dados.js: Arquivo contendo os dados das plantas (nome, descrição, link e tags).
 * app.js: Arquivo contendo a lógica JavaScript da aplicação.
 
-**Quer testar o projeto?**
+**Link do projeto**
 
-É só acessar o link: 
+É só acessar: https://github.com/Maike-Simoncini/Plantas-Medicinais.git
 
