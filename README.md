@@ -1,4 +1,4 @@
-# Projeto de Busca de Plantas Medicinais
+# Projeto de Busca, Plantas Medicinais
 
 **Descrição**
 
@@ -20,5 +20,5 @@ Este projeto web simples permite aos usuários pesquisar por Plantas Medicinais.
 
 **Link do projeto**
 
-É só acessar: https://maike-simoncini.github.io/Plantas-Medicinais/
+https://maike-simoncini.github.io/Plantas-Medicinais/
 
