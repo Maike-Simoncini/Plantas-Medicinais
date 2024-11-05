@@ -70,5 +70,5 @@ let dados = [
     descricao: "As hortelãs ou mentas são plantas herbáceas vivazes, compreendendo numerosas espécies, das quais muitas são cultivadas em função de suas propriedades aromáticas, condimentares, ornamentais ou medicinais. Em suas propriedades medicinais, é usada como antisséptico, aromática, digestivo, estomáquica e expectorante.",
     link: "https://pt.wikipedia.org/wiki/Mentha",
     tags: "Mentha"
-  }
+  },
 ];
