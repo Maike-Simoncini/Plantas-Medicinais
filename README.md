@@ -1,8 +1,8 @@
-# Projeto de Busca, Plantas Medicinais
+# Projeto de Busca "Plantas Medicinais"
 
 **Descrição**
 
-Este projeto web simples permite aos usuários pesquisar por Plantas Medicinais. Ao digitar o nome de um planta no campo de pesquisa e pressionar Enter ou clicar no botão de pesquisa, a aplicação busca por correspondências no nome ou nas tags associadas a cada planta. Os resultados são exibidos em uma lista, com o nome da planta, uma breve descrição e um link para mais informações.
+Projeto web simples permite ao usuário pesquisar por Plantas Medicinais. Ao digitar o nome de um planta no campo de pesquisa e pressionar Enter ou clicar no botão de pesquisa, a aplicação busca por correspondências no nome ou nas tags associadas a cada planta. Os resultados são exibidos em uma lista, com o nome da planta, uma breve descrição e um link para mais informações.
 
 **Tecnologias Utilizadas**
 
