@@ -1,57 +1,221 @@
 * {
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center; 
-    font-size: 30px;
-    border-radius: 4px;
+    padding: 0;
+}
+
+html {
+    font-family: Geneva;
 }
 
 body {
-    background-color: #ffffff;
+    height: 100vh;
+    margin: 0;
+    background-image: url(img/court.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -150px;
 }
 
-h1{
-    font-size: 50px;
-    padding: 45px;  
+header {
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
-.botao {
-    width: 300px;
-    padding: 2px;
-    background-color: #449af6;
-    color: #000000;
+header h1 {
+    font-size: 4rem;
 }
 
-select {
-    margin: auto;
-    width: 300px;
-    display: block;
-    padding: 2px;
-    background-color: #449af6;
-    color: #000000;
-    border: 1px solid;
+main {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#resposta {
-    margin: auto;
-    width: 300px;
-    padding: 2px;
-    border: 1px solid;
-    background-color: #ffffff;
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 0 auto;
 }
 
-input {
-    width: 300px;
-    padding: 3px;
-    border: 1px solid;
-    background-color: #ffffff;
+.pesquisa input {
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    text-align: start;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 30px;
+    outline: 0;
+    transition: box-shadow 1s;
+}
+
+.pesquisa input:focus {
+    box-shadow: 0px 0px 10px .5px gray;
+}
+
+.pesquisa button {
+    height: 45px;
+    padding: 10px;
+    margin-left: 10px;
+    border: 0;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px .5px gray;
+    background-color: rgb(113, 255, 74);
+    cursor: pointer;
+    transition: background-color .5s;
+}
+
+.pesquisa button:hover {
+    background-color: rgb(58, 230, 39);
+}
+
+.resultado {
+    height: 50%;
+    width: 50%;
+    margin: 5px auto 0 auto;
+    overflow-y: auto;
+}
+
+.item-resultado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    text-align: justify;
+    padding: 20px;
+    width: 95%;
+    box-shadow: 0px 0px 10px .5px gray;
+    margin: 100px auto 0 auto;
+    background-color: white;
+    border: 0;
+    border-radius: 0.5rem;
+}
+
+.nomevalido {
+    width: fit-content;
+    justify-content: center;
+}
+
+.item-resultado h2 {
+    margin: 10px 0;
+}
+
+.item-resultado a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.item-resultado a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    align-content: center;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
 }
 
 footer a {
-    display: flex;
-    justify-content: center;
+    font-weight: lighter;
     text-decoration: none;
     color: black;
-    align-items: center;
-    font-size: 17px;
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+    body {
+        background-size: 250%;
+        background-position: center;
+        background-position-x: -300px;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .pesquisa {
+        width: 70%;
+    }
+
+    .pesquisa input {
+        width: 100%;
+    }
+
+    .resultado {
+        width: 90%;
+    }
+
+    .item-resultado {
+        width: 95%;
+    }
+
+    .item-resultado h2 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-size: 350%;
+        background-position: center;
+        background-position-x: -250px;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .pesquisa {
+        flex-wrap: wrap;
+        width: 85%;
+    }
+
+    .pesquisa input {
+        text-align: center;
+        width: 100%;
+    }
+
+    .pesquisa button {
+        width: 8rem;
+        border-radius: 2rem;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    .resultado {
+        width: 90%;
+    }
+
+    .item-resultado {
+        width: 95%;
+    }
+
+    .item-resultado h2 {
+        font-size: 1.1rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+        padding: 0 1rem;
+    }
+
+    footer p {
+        text-align: center;
+    }
 }
