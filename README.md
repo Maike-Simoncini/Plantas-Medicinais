@@ -1,6 +1,6 @@
 # Projeto de Busca "Plantas Medicinais"
 
-<a><img width="100%" src="img/tela.png"></a>
+<a><img width="80%" src="img/tela.png"></a>
 
 **Descrição**
 
