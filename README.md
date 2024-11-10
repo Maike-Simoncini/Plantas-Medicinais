@@ -1,5 +1,7 @@
 # Projeto de Busca "Plantas Medicinais"
 
+<a><img width="80%" src="img/tela.png"></a>
+
 **Descrição**
 
 Projeto web que permite ao usuário pesquisar por Plantas Medicinais, digitanado o nome de um planta no campo de pesquisa. <br>
