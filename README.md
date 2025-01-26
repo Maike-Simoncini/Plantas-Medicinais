@@ -31,12 +31,12 @@ Este projeto é uma aplicação web que permite ao usuário pesquisar o nome de 
 
 ### 🔗 Link para o Projeto
 
-[Ver Projeto ao Vivo](https://maike-simoncini.github.io/Plantas-Medicinais/) 🔗
+[Ver Projeto ao Vivo](https://maike-simoncini.github.io/Plantas-Medicinais/) 👈
 
 ### 📄 Licença
 Este projeto é de código aberto e pode ser utilizado por qualquer pessoa.
 
-© 2024 Maike Simoncini
+© 2024 Dev. Excelente
 
 
 
