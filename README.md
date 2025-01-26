@@ -1,18 +1,42 @@
-# Projeto de Busca "Plantas Medicinais"
+# 🌿 Plantas Medicinais
 
-<a><img width="80%" src="img/tela.png"></a>
+Um projeto interativo que permite pesquisar informações sobre plantas medicinais.
 
-**Descrição**
+## 📜 Descrição do Projeto
 
-Projeto que permite usuários pesquisar por Plantas Medicinais, digitanado o nome de um planta no campo de pesquisa. <br>
-Pressionar Enter ou clicar no botão de pesquisa, a aplicação busca por nome ou tags associadas a cada planta. <br>
-Os resultados são exibidos, com o nome da planta, uma breve descrição e um link para mais informações.
-* HTML: Estrutura da página web.
-* CSS: Estilização da página web.
-* JavaScript: Lógica da aplicação, incluindo a função de pesquisa e a manipulação do DOM.
-* Google Fonts: Fontes e ícones personalizados para a página.
+Este projeto é uma aplicação web que permite ao usuário pesquisar o nome de plantas medicinais e obter informações relevantes sobre elas. A interface é simples e intuitiva, facilitando a busca e o acesso às informações.
 
-**Link do projeto**
+## 🚀 Tecnologias Utilizadas
 
-https://maike-simoncini.github.io/Plantas-Medicinais/
+- HTML
+- CSS
+- JavaScript
+- Google Fonts (Material Symbols)
+
+## 📁 Estrutura do Projeto
+
+- index.html
+- style.css
+- dados.js
+- app.js
+
+## 🎯 Funcionalidades
+- Campo de pesquisa para digitar o nome da planta.
+- Botão de pesquisa que aciona a busca.
+- Exibição dos resultados de forma dinâmica.
+
+### 📷 Demonstração
+
+![Plantas Medicinais](<a><img width="100%" src="img/tela.png"></a>) <!-- Insira o caminho para uma captura de tela do seu projeto -->
+
+### 🔗 Link para o Projeto
+
+[Ver Projeto ao Vivo](https://maike-simoncini.github.io/Plantas-Medicinais/) 🔗
+
+### 📄 Licença
+Este projeto é de código aberto e pode ser utilizado por qualquer pessoa.
+
+© 2024 Maike Simoncini
+
+
 
