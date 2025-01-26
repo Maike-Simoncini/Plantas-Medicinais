@@ -27,7 +27,7 @@ Este projeto é uma aplicação web que permite ao usuário pesquisar o nome de 
 
 ### 📷 Demonstração
 
-![Plantas Medicinais](<a><img width="100%" src="img/tela.png"></a>) <!-- Insira o caminho para uma captura de tela do seu projeto -->
+<a><img width="100%" src="img/tela.png"></a>
 
 ### 🔗 Link para o Projeto
 
